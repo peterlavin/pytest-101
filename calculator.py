@@ -14,7 +14,6 @@ class Calculator:
     def subtract(self, a: int, b: int) -> int:
         return a-b
 
-
     def multiply(self, a: int, b: int) -> int:
         return a*b
 
