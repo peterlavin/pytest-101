@@ -32,7 +32,6 @@ if __name__ == '__main__':
     cal = Calculator()
     ops = [cal.add, cal.subtract, cal.multiply, cal.divide]
 
-
     while True:
         for i, op in enumerate(ops, start=1):
             print(i, str(op.__name__))
